@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box 3px;
+}
+
+nav {
+    background: whitesmoke;
+    width: 90%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+
+}
+
+.menu a {
+    text-decoration:none;
+    text-decoration: uppercase;
+    padding: 0 10px;
+    font-weight: bold;
+    color: black;
+}

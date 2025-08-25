@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .login{
+            border: 2px solid white;
+            width: 300px;
+            height: 200px;
+            margin-top: 100px;
+            /* background: rgb(0,0,0,0.4); */
+            /* background: linear-gradient(90 deg,rgb(24,32,174),transparent); */
+            /* background: linear-gradient(90 deg,blue,red,transparent); */
+            background: linear-gradient(90 deg,rgba(220,16,16,0.4),rgba(0,33,250,0.4)transparent);
+            box-shadow: 5px 3px 3px black; 
+
+        }
+
+        body{
+            /* background: rgb(102,98,98); */
+            background-image: url(/Image/download.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            size-adjust: 100%;
+        }
+
+        .login h2{
+            background: yellowgreen;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+
+        }
+
+        .login input{
+            width: 222px;
+            height: 34px;
+            border: none;
+            outline: none;
+            border-radius: 9px;
+            box-shadow: 2px 2px 2px black;
+        }
+
+        .login button{
+            width: 115px;
+            height: 31px;
+            background: black;
+            color: aliceblue;
+            border: none;
+            border-radius: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <center>
+        <div class="login">
+            <h2>login</h2>
+          <form>
+               <input type="text" name="" placeholder="username">
+               <br><br>
+               <input type="password" name="" placeholder="password">
+               <br><br>
+               <button type="submit">Login</button>
+          </form>
+        </div>
+    </center>
+</body>
+</html>
