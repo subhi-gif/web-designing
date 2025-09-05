@@ -218,6 +218,49 @@ nav {
 
 /* responsive design */
 /* for tablets (max width 992px) */
-@media (max-width:992px) {}
+ @media (max-width:992px) {
+ nav{
+    padding:0 40px;
+ }
+ .banner h1{
+    font-size: 40px;
+    width:70%;
+ }
+ .about,.team,.contact{
+    padding: 80px 50px;
+ }
+} 
+ /* for mobile devices  (max width 992px) */ 
+ @media (max-width:992px) {
+ nav{
+    flex-direction:column;
+    height:auto;
+    padding:10px;
+ }
+ .menu{
+ margin-top: 10px;
+ }
+ .banner h1{
+    font-size: 28px;
+    width:90%;
+ }
+.about,.Team,.contact{
+    padding: 50px 20px;
+}
+.footer-container{
+    flex-direction: column;
+    text-align: center;
+}
+.footer-links a{
+    display: inline-block;
+    margin: 5px 10px;
+}
+for small mobile devices(max width 480px)
+@media (max-width:480px){
+    
+}
+} 
+
+
 
 /* https://pninfosys.com/ */
