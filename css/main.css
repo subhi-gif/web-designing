@@ -56,3 +56,21 @@
             margin-top: 10px;
             text-align: center;
         }
+        .cc{
+            background: url(../Image/ffback2.png);
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+          background-position: center;
+          display: flex;
+          align-items: flex-start;
+         justify-content: center;
+          padding-top: 50px;
+        
+            
+        }
+        .text-box{
+            margin-top: 100px;
+            text-align: center;
+            color: white;
+        }
